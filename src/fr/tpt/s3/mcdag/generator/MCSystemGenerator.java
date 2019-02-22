@@ -45,8 +45,8 @@ public class MCSystemGenerator {
 	protected RandomNumberGenerator rng;
 	protected boolean debug;
 	
-	protected int possibleDeadlines[] = {100, 120, 150, 180, 200, 220, 250, 300, 400, 500}; 
-	
+//	protected int possibleDeadlines[] = {100, 120, 150, 180, 200, 220, 250, 300, 400, 500};
+	protected int possibleDeadlines[] = {40};
 	public MCSystemGenerator (double maxU, int nbTasks,
 			double eProb, int levels, int paraDegree, int nbDAGs,
 			double rfactor, boolean debug) {
